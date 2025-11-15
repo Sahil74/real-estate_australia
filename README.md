@@ -54,22 +54,3 @@ For investors:
 * Knowing the direction helps think about sunlight, gardens, or solar panels.
 
 The results aren’t perfect because some points didn’t match polygons exactly, but it still gives a good idea of which way most houses face.
-
-## Optional Chart
-
-You can make a bar chart to show counts of each orientation:
-
-```python
-import matplotlib.pyplot as plt
-
-counts = {
-    'S': 3884, 'SW': 1660, 'W': 1560, 'E': 700,
-    'SE': 559, 'NW': 202, 'N': 183, 'NE': 146
-}
-
-plt.bar(counts.keys(), counts.values())
-plt.title("Property Orientation Counts")
-plt.xlabel("Orientation")
-plt.ylabel("Number of Properties")
-plt.show()
-```
