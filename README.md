@@ -73,5 +73,3 @@ plt.xlabel("Orientation")
 plt.ylabel("Number of Properties")
 plt.show()
 ```
-
-This makes it easy for anyone to see which directions are most common.
